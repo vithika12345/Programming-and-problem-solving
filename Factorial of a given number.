@@ -1,0 +1,11 @@
+def factorial(num):
+	if(num==1 or num==0):
+		return 1
+	else:
+		return num*factorial(num-1)
+
+num = int(input("Enter a number : "))
+if(num>=0):
+	print("Factorial of given number is :",factorial(num))
+else:
+	print("Enter a positive number\n")
