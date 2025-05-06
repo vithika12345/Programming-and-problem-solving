@@ -1,0 +1,6 @@
+r=float(input("Enter the radius : "))
+area = 3.14*r*r
+if(r<0.0):
+	print("Enter a positive value upto 100\n")
+else:
+	print("Area of circle = %f"%area)
