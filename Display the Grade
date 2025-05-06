@@ -1,0 +1,18 @@
+s1 = float(input("subject 1: "))
+s2 = float(input("subject 2: "))
+s3 = float(input("subject 3: "))
+s4 = float(input("subject 4: "))
+s5 = float(input("subject 5: "))
+total = s1+s2+s3+s4+s5
+avg = total/5
+print("Average Marks: %0.2f"%avg)
+if(100>avg>90):
+	print("Grade: A")
+elif(90>avg>80):
+	print("Grade: B")
+elif(80>avg>70):
+	print("Grade: C")
+elif(70>avg>60):
+	print("Grade: D")
+else:
+	print("Grade: F")
